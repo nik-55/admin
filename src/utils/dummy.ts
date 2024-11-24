@@ -46,14 +46,14 @@ export const orgPageData: _ORG_PAGE_DATA = {
       _id: 'lead_001',
       content: {
         created_at: '2023-11-01T10:30:00Z',
-        message: 'Interested in our sustainability program.',
+        message: 'Interested in our sustainability program.this is a long message that should be truncated in the table. Interested in our sustainability program.this is a long message that should be truncated in the table. Interested in our sustainability program.this is a long message that should be truncated in the table. Interested in our sustainability program.this is a long message that should be truncated in the table. Interested in our sustainability program.this is a long message that should be truncated in the table.',
         source: 'whatsapp',
       },
       rating: 5,
       is_shortlisted: true,
       is_contacted: true,
-      reason: 'Interested in partnership.',
-      feedback: 'Positive response to follow-up.',
+      reason: 'Interested in partnership This is a long reason that should be truncated in the table. Interested in partnership This is a long reason that should be truncated in the table.',
+      feedback: 'Positive response to follow-up. This is a long feedback that should be truncated in the table. Positive response to follow-up. This is a long feedback that should be truncated in the table.',
     },
     {
       _id: 'lead_002',
