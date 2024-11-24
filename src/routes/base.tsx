@@ -1,9 +1,15 @@
+import Home from '@/pages/home';
+import Org from '@/pages/org';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <>Hello</>,
+    element: <Home />,
+  },
+  {
+    path: '/:orgId',
+    element: <Org />,
   },
 ]);
 
